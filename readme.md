@@ -9,7 +9,7 @@ Node and Mongoose, deployed to Heroku.
 5. Set an environment variable with the appropriate information from your MongoLab database. The variable here has been called `MONGODB_URL`, but it can be anything as long as it matches the place the URL is referenced in your `index.js`.
 ```
 
-$ heroku config:add MONGODB_URL=NAME_OF_USER_YOU_CREATED:PASSWORD_OF_USER_YOU_CREATED!@ds123456.mongolab.com:45795/little_node
+$ heroku config:add MONGODB_URL=name_of_user_you_created:password_of_user_you_created@ds123456.mongolab.com:45795/little_node
 ```
 
 If you get errors:
